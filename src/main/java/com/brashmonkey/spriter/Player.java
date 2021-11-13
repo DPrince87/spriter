@@ -56,7 +56,7 @@ public class Player {
     public Player(Entity entity) {
         this.boneIterator = new BoneIterator();
         this.objectIterator = new ObjectIterator();
-        this.speed = 15;
+        this.speed = 1000;
         this.rect = new Rectangle(0, 0, 0, 0);
         this.prevBBox = new Box();
         this.listeners = new ArrayList<PlayerListener>();
